@@ -1,4 +1,14 @@
 return {
+
+
+  {
+    "jupyter-vim/jupyter-vim",
+    config = function()
+      vim.g.jupyter_mapkeys = 0  -- Evita conflictos de mapeo de teclas
+    end
+  },
+
+
   -- Tema Dracula
   { "Mofiqul/dracula.nvim" },
 
